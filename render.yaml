@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lead-crm-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
